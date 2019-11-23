@@ -1,0 +1,21 @@
+{
+  "name": "SW_Hackathon",
+  "version": "1.0.0",
+  "description": "소프트웨어 마이스터고 해커톤",
+  "main": "./src/index.js",
+  "author": "Choi Isak",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.0"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  }
+}
